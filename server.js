@@ -34,5 +34,5 @@ app.get('/about', (req, res) =>{
 // });
 
 app.listen(puerto, ()=>{
-  console.log('escuchando peticiones en el puerto 3000');
+  console.log(`escuchando peticiones en el puerto ${puerto}`);
 })
